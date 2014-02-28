@@ -1,3 +1,16 @@
+# Instructions
+
+This is a Ruby on Rails 4 application. It requires ruby 1.9.3 or up. To install dependencies and run this app, please follow below steps:
+
+```
+$ bundle install
+$ rake db:migrate
+$ bundle exec rails s
+$ open http://localhost:3000/
+```
+
+To run specs, you need to run "rake all:test:db" to reset test database, then run "rake spec". Please note, I only created a few specs for demonstration purpose.
+
 # Challenge for Software Engineer - Big Data 
 To better assess a candidates development skills, we would like to provide the following challenge.  You have as much time as you'd like (though we ask that you not spend more than a few hours).
 

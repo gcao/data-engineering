@@ -1,0 +1,9 @@
+= form_tag(raw_transactions_url, multipart: true) do
+  %h1 Please upload your raw transactions file
+  - if flash.alert
+    %div.alert= flash.alert
+  %div
+    = file_field_tag 'transactions_file'
+  %div
+    = submit_tag 'Submit'
+
